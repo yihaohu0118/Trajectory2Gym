@@ -1,0 +1,10 @@
+{
+  "observation_db_safe_tools": [
+    "lookup_weather",
+    "search_docs"
+  ],
+  "mutating_tools": [
+    "delete_document",
+    "update_profile"
+  ]
+}

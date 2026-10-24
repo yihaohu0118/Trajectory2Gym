@@ -1,0 +1,3 @@
+# CPU regression dependencies; install the CPU PyTorch wheel separately.
+numpy==1.26.4
+pytest==8.3.5

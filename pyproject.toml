@@ -1,0 +1,53 @@
+[project]
+name = "trajectory2gym"
+version = "0.1.0"
+description = "Decision-grounded interaction construction and parent-normalized supervised tool-use training."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = [
+  "datasets>=2.18,<5.0",
+  "huggingface-hub>=0.24,<1.0",
+  "numpy>=1.26,<3.0.0",
+  "omegaconf>=2.3.0",
+  "openai>=1.0.0",
+  "pandas>=2.0.0",
+  "pyarrow>=19.0.0",
+  "pyyaml>=6.0.0",
+  "requests>=2.31.0",
+  "safetensors>=0.4.5,<1.0",
+  "tqdm>=4.66.0",
+  "transformers>=4.51.0,<4.57.0",
+]
+
+[project.urls]
+Homepage = "https://yihaohu0118.github.io/Trajectory2Gym-page/"
+Repository = "https://github.com/yihaohu0118/Trajectory2Gym"
+Paper = "https://yihaohu0118.github.io/Trajectory2Gym-page/assets/Trajectory2Gym.pdf"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0,<9.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = [
+  "env*",
+  "trajectory2gym*",
+]
+exclude = [
+  "archive*",
+  "data*",
+  "docs*",
+  "external*",
+  "scripts*",
+  "tests*",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

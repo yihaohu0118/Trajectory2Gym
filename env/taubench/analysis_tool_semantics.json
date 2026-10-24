@@ -1,0 +1,29 @@
+{
+  "observation_db_safe_tools": [
+    "calculate",
+    "find_user_id_by_email",
+    "find_user_id_by_name_zip",
+    "get_order_details",
+    "get_product_details",
+    "get_reservation_details",
+    "get_user_details",
+    "list_all_product_types",
+    "search_direct_flight"
+  ],
+  "mutating_tools": [
+    "book_reservation",
+    "cancel_pending_order",
+    "cancel_reservation",
+    "exchange_delivered_order_items",
+    "modify_pending_order_address",
+    "modify_pending_order_items",
+    "modify_pending_order_payment",
+    "modify_user_address",
+    "return_delivered_order_items",
+    "send_certificate",
+    "transfer_to_human_agents",
+    "update_reservation_baggages",
+    "update_reservation_flights",
+    "update_reservation_passengers"
+  ]
+}

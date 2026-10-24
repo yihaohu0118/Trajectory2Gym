@@ -1,0 +1,574 @@
+{
+  "automated_scan": {
+    "checked_files": 113,
+    "findings": [],
+    "reviewed_native_literal_occurrences": 0,
+    "scope": "Pattern scan only; not a license, PII, or data-quality certification.",
+    "status": "pass"
+  },
+  "files": [
+    {
+      "bytes": 19,
+      "path": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "bytes": 1076,
+      "path": ".github/workflows/ci.yml",
+      "sha256": "82501316eb72643760a4315dcd6757ce04f606b4fd380537c25ce4f27083ed35"
+    },
+    {
+      "bytes": 187,
+      "path": ".gitignore",
+      "sha256": "94510c2b0927d7fad913c98f7f1dcede435396983bcafb5e9b2c268d25e87853"
+    },
+    {
+      "bytes": 381,
+      "path": "configs/paper_support_depths.json",
+      "sha256": "8778de4d86ab6800fdc9f45413d89007bf2fe56fa2999048bdd259af1496d363"
+    },
+    {
+      "bytes": 4820,
+      "path": "docs/DATA_RELEASE.md",
+      "sha256": "0f35d05fa3c0b3dddda56fc16e31d9bfd297b0e586d7bb56868547668d690f7c"
+    },
+    {
+      "bytes": 3542,
+      "path": "docs/WORKFLOW.md",
+      "sha256": "f90d99eeeb8a1bcc0d552ca75b62287e6e81d27cf2ea36c4b43e7030f1700014"
+    },
+    {
+      "bytes": 395,
+      "path": "env/__init__.py",
+      "sha256": "df025f70b5e9d4991a52fb3795b6b822fadb80f9f4a37a48e1cd5be70b557896"
+    },
+    {
+      "bytes": 289,
+      "path": "env/base/__init__.py",
+      "sha256": "e1d7065071b2b2177ec245f5bda98eb675b1dbc5633b996deb897f553344f8a5"
+    },
+    {
+      "bytes": 544,
+      "path": "env/base/benchmark.py",
+      "sha256": "0f03dab12000d3b671c55a6ce2387fa24eeb6e92c04f3167e6a731be0e7fa0ac"
+    },
+    {
+      "bytes": 410,
+      "path": "env/base/evaluator.py",
+      "sha256": "b37ffe2fd6cc62b6f14fd1a4d5d7add8f2b1e047e385aa385936c732d7649ff5"
+    },
+    {
+      "bytes": 322,
+      "path": "env/base/execution_result.py",
+      "sha256": "b00ff69e7e491736c6f08ba9c929833fa384042753370044e5d59b9dc17e672e"
+    },
+    {
+      "bytes": 287,
+      "path": "env/base/test_case.py",
+      "sha256": "b9e51ffaa7b77ea1cc0fa390668ef281e25a2050d5624da8e2c5002e9420aae0"
+    },
+    {
+      "bytes": 396,
+      "path": "env/bfcl/__init__.py",
+      "sha256": "f9f7ce92b925d8386e2de9645124220ce277992f2cd9f92b7ad1abeca330ded6"
+    },
+    {
+      "bytes": 145,
+      "path": "env/bfcl/adapter.py",
+      "sha256": "a19f4884926b7136df11f4ceb4a579341a42ae5ff9295423930fa4a7b9de4f18"
+    },
+    {
+      "bytes": 9895,
+      "path": "env/bfcl/external.py",
+      "sha256": "b32207672be3ed452321be19fd51e50ed42ec26b233e9c79ba323c9ce1ac37cb"
+    },
+    {
+      "bytes": 56553,
+      "path": "env/bfcl/official.py",
+      "sha256": "d02c9a7a0e0ae4b5add78a18ec4ff39e0f53ce915f9fa70aa5a6791bcee18eb8"
+    },
+    {
+      "bytes": 232,
+      "path": "env/tau2_bench/__init__.py",
+      "sha256": "d2539b073bfa9b700078cd66fa694e5ed65dcb4f157656958b85656a38ce6f5b"
+    },
+    {
+      "bytes": 151,
+      "path": "env/tau2_bench/adapter.py",
+      "sha256": "046bd900475afb371006bc92c23a32d975936401643f925bafa70203d8fa710b"
+    },
+    {
+      "bytes": 1533,
+      "path": "env/tau2_bench/analysis_tool_semantics.json",
+      "sha256": "0744597c6a3eaaaefa27fb59f05ad6fe0328348f6112786d86bff9473a9697b7"
+    },
+    {
+      "bytes": 29573,
+      "path": "env/tau2_bench/official.py",
+      "sha256": "12341dc9a092a8bab441592ea7ed52a2ba8d27d14f84007bc231966fcbf74411"
+    },
+    {
+      "bytes": 251,
+      "path": "env/taubench/__init__.py",
+      "sha256": "72748d11b0c12fda06107d7149b3bd45f4581ba3dcb23f423d8b94b4a4266603"
+    },
+    {
+      "bytes": 148,
+      "path": "env/taubench/adapter.py",
+      "sha256": "1a06db9bec37256e310dc2169315459d5b1bab027a4c891a2088f354ae10b77a"
+    },
+    {
+      "bytes": 756,
+      "path": "env/taubench/analysis_tool_semantics.json",
+      "sha256": "3a192daadca77fd82a878959d57fa79600ce377dfdcbd32f8b8ae738d6f9948d"
+    },
+    {
+      "bytes": 34758,
+      "path": "env/taubench/official.py",
+      "sha256": "5bb1905ef918202e83b4141c09f21886f43d75737f0e4712517c8ea83433b36a"
+    },
+    {
+      "bytes": 719,
+      "path": "examples/minimal_adapter.py",
+      "sha256": "1d6b7fba0ea262844ac250db6c65cd111c49620d541f63476b020bd23e8f7574"
+    },
+    {
+      "bytes": 634,
+      "path": "examples/minimal_trajectory.jsonl",
+      "sha256": "b651b6f51170f2bd7eb15198851600083dda5731ec02f9cbf8f4d0719a5650da"
+    },
+    {
+      "bytes": 1854,
+      "path": "examples/structural_support_demo.py",
+      "sha256": "7fcba7957ee6bea1af474760688b2988431d878e1ed77313c8f3130f9b0e6365"
+    },
+    {
+      "bytes": 152,
+      "path": "examples/tool_semantics.json",
+      "sha256": "891473e6eebd75dca14162ff13cc80cb3dee2ba716087382641aca039af6da6a"
+    },
+    {
+      "bytes": 11358,
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "bytes": 1153,
+      "path": "pyproject.toml",
+      "sha256": "e132a52d26cc2961aa8fd783e81d5ed5246dba8f883440841f7138cfa9d18cef"
+    },
+    {
+      "bytes": 6421,
+      "path": "README.md",
+      "sha256": "b76b2134165869aa1928a6b938c39da7c41fda165f1fc3b190780efff713fbe9"
+    },
+    {
+      "bytes": 101,
+      "path": "requirements-ci.txt",
+      "sha256": "a9664a797d2237277fe99a37ef1d5af8c8a799d9e793e36b9ed1d18f4b886ce1"
+    },
+    {
+      "bytes": 7331,
+      "path": "scripts/analysis/apply_transport_parent_mass_correction.py",
+      "sha256": "ee60368eb3cbeb4a01d37d5b84d2931ec0ce5dcd80e64aab10d49950b4c406e0"
+    },
+    {
+      "bytes": 3736,
+      "path": "scripts/analysis/audit_sft_policy_visibility.py",
+      "sha256": "9312f36745c3ded2b6f74bb447613ed9a29cae2a52c17edcc38f175fdeec39d6"
+    },
+    {
+      "bytes": 7702,
+      "path": "scripts/analysis/build_targeted_active_synthesis_overlay.py",
+      "sha256": "e0c0c5465e8e0127ff17d7a4065fdfd3a5ba0e6ff6a5dc7a1cd82de28ef3288a"
+    },
+    {
+      "bytes": 6252,
+      "path": "scripts/analysis/finalize_structural_support_sft_view.py",
+      "sha256": "c8b4fb74c77c149780c6f4b7e977e5a9b4b4a1b43510c933acda377100443faf"
+    },
+    {
+      "bytes": 8510,
+      "path": "scripts/analysis/finalize_unified_global_sft_view.py",
+      "sha256": "12754a4b90d1274bc5c5689a4e98f74f0cf94da18e893df41cba5774e271982a"
+    },
+    {
+      "bytes": 12490,
+      "path": "scripts/analysis/merge_certified_semantic_candidate_union.py",
+      "sha256": "704ff74cb6fec207011f65ad7b1ee52bc56224ca39ba52180ec1c56e3ff39fe0"
+    },
+    {
+      "bytes": 3243,
+      "path": "scripts/analysis/rebuild_certified_candidate_pool.py",
+      "sha256": "dbf7bc5c1e9d77a2387230da66467ada14612fc2af53556e35b81f6691836c56"
+    },
+    {
+      "bytes": 15764,
+      "path": "scripts/analysis/select_global_agentic_sft_view.py",
+      "sha256": "547e51dfd2500b55380701f8211da33dffa5f34d93d79aecd417f38e5cf3e9b7"
+    },
+    {
+      "bytes": 22384,
+      "path": "scripts/analysis/select_structural_support_scaling_views.py",
+      "sha256": "754ce0ad622804e9d236366e3d6f47e324d451b81ae8b40f3bf5103840bdf51a"
+    },
+    {
+      "bytes": 1853,
+      "path": "scripts/release/build_code_archive.py",
+      "sha256": "db52c235137a01c801fda33bb83ed72108a739570b51c7cb5a8efdd17fb00a73"
+    },
+    {
+      "bytes": 791,
+      "path": "scripts/release/check_release.py",
+      "sha256": "4b09a13422ce01f89fa15a756b0c50f1a32956c0b7bc7312bd73b10cfea44bc0"
+    },
+    {
+      "bytes": 10189,
+      "path": "scripts/release/export_policy_visible_jsonl.py",
+      "sha256": "ff21453dbed123ceb548848ba47cbe4746eb88efc9699dd8ec0211596a7ce7ce"
+    },
+    {
+      "bytes": 1237,
+      "path": "scripts/release/prepare_dataset_manifest.py",
+      "sha256": "86de370eafd344bbab7689c07425305ebd72631a8c59b997c51b6983b920a193"
+    },
+    {
+      "bytes": 8320,
+      "path": "scripts/release/release_utils.py",
+      "sha256": "d5d7c86109616fd6084db6cb0d89d0e96e0655f7a8a67045459d7506315557f6"
+    },
+    {
+      "bytes": 3509,
+      "path": "scripts/release/upload_private_dataset.py",
+      "sha256": "d73acfd22bf24ad9677b934362e0b370d1bb557d7ec5885e1323dd6604a87872"
+    },
+    {
+      "bytes": 4658,
+      "path": "scripts/train/certified_loss_contract.py",
+      "sha256": "fcc47b97c0d9c8d384667b4cc90875740820d4e1721b5c248e699be115dcd87c"
+    },
+    {
+      "bytes": 100751,
+      "path": "scripts/train/train_trajectory2gym_sft_view.py",
+      "sha256": "362d0ca9bb680dd07d6c8ee0286278b007dcf062623cda4234f9655240406c86"
+    },
+    {
+      "bytes": 1248,
+      "path": "tests/test_build_targeted_active_synthesis_overlay.py",
+      "sha256": "565bb987d1fe41cf2adebc632472171c10710f291a6c2cb9c250c9b81e310cd7"
+    },
+    {
+      "bytes": 813,
+      "path": "tests/test_finalize_unified_global_sft_view.py",
+      "sha256": "35aa39fa5f978bbaa239aa11dba802d34b6adb9eff1ac57b0a5990e6bc9ced21"
+    },
+    {
+      "bytes": 11954,
+      "path": "tests/test_global_sft_selection.py",
+      "sha256": "d77490af99daf66e013a22dcba66b67c492dcc9d16566b2b842936a37c8c8263"
+    },
+    {
+      "bytes": 1626,
+      "path": "tests/test_global_sft_stateful_loop_redundancy.py",
+      "sha256": "10de1ee7a0759799f47cb9be67e9cdcdba25805258184d99f5495b52c37e3d8c"
+    },
+    {
+      "bytes": 3782,
+      "path": "tests/test_policy_visible_export.py",
+      "sha256": "d5520ee6a267e242674ea1d731769afeceb6781909884c02203adb76047cd638"
+    },
+    {
+      "bytes": 357,
+      "path": "tests/test_rebuild_certified_candidate_pool.py",
+      "sha256": "8ed09594830794bed2b6defc2f2e5aea219cc499c3c7fb3b5697862c0fa10aa5"
+    },
+    {
+      "bytes": 1570,
+      "path": "tests/test_release_import_closure.py",
+      "sha256": "188ebafac52fea1b4ae6ebe7fa5a7b87d11f0aa2958c18c9c4073739cebdd58d"
+    },
+    {
+      "bytes": 4475,
+      "path": "tests/test_release_tools.py",
+      "sha256": "d029cd593256e95c526a88eb0bd6dffbb4cd6ee69892e64e9337ab5c258f7f49"
+    },
+    {
+      "bytes": 3404,
+      "path": "tests/test_structural_support_scaling_views.py",
+      "sha256": "e55c5eae06ea9f42257d2d661912ef91ea8f975bc59f8640b885fe0f7f78c039"
+    },
+    {
+      "bytes": 28242,
+      "path": "tests/test_train_trajectory2gym_sft_view.py",
+      "sha256": "abb71cd32792578e490c634006707ab3abaeea896e5529630623ecef80c2aea5"
+    },
+    {
+      "bytes": 432,
+      "path": "tests/test_transport_parent_mass_correction.py",
+      "sha256": "e2a02d8f0e7ba31407da51744b0b5787558a280092b68318e8c6f5f18abcd05b"
+    },
+    {
+      "bytes": 827,
+      "path": "THIRD_PARTY.md",
+      "sha256": "512685016ed22cfa03f485bf69ab3444cb43d39a69202901468f716e1851ccda"
+    },
+    {
+      "bytes": 291,
+      "path": "trajectory2gym/__init__.py",
+      "sha256": "3e3f2804dcf77deb2363b4eba85c0792ad33097a275787554474e19defd3a59e"
+    },
+    {
+      "bytes": 3221,
+      "path": "trajectory2gym/openai_response.py",
+      "sha256": "98be5f4029ff1e3d8d45f58dfff98c9d452badc05ec27fc3b533ba59d84c33c0"
+    },
+    {
+      "bytes": 1185,
+      "path": "trajectory2gym/rewards/__init__.py",
+      "sha256": "46508794bd4ee34b20213987103888804174688b7fb10f37c98c84e8f61f564c"
+    },
+    {
+      "bytes": 1633,
+      "path": "trajectory2gym/rewards/recovery_integrity.py",
+      "sha256": "d4978642f2ce8edab22b58e1c8e0c0524294c5757e5db108eecab952ca8fd9a8"
+    },
+    {
+      "bytes": 12370,
+      "path": "trajectory2gym/rewards/verified_failure.py",
+      "sha256": "a69f99de54ab5d4aa9410b74bb54c199c75a941cd5411a64a4fff0375978a40a"
+    },
+    {
+      "bytes": 1099,
+      "path": "trajectory2gym/tau2_projection.py",
+      "sha256": "2b931049e4f31164d68653713ae58a3453eef1a9f5d2710e346213746fe4c768"
+    },
+    {
+      "bytes": 4315,
+      "path": "trajectory2gym/text.py",
+      "sha256": "e3ef3823a122d30ce3c4c68a1c22a28be470d72de38ae2018ba8a48cacedc436"
+    },
+    {
+      "bytes": 12838,
+      "path": "trajectory2gym/tool_calls.py",
+      "sha256": "34bc3c7255e2abfbd7c3286a68f032ed23db487d30629467ce580829416fd425"
+    },
+    {
+      "bytes": 171,
+      "path": "trajectory2gym/training/__init__.py",
+      "sha256": "4d51a31d9e08b9c9c622b32780723d15410577af5d45c13b6e55a5102c3bec31"
+    },
+    {
+      "bytes": 10691,
+      "path": "trajectory2gym/training/chat_canonicalization.py",
+      "sha256": "772f8ea48886118ab15f6f1d6fa85d51f5f7419a6002486f94a6139b79aea5a6"
+    },
+    {
+      "bytes": 2885,
+      "path": "trajectory2gym/training/checkpoint_storage.py",
+      "sha256": "22b6c92e48a277fd26e440a8e5f765f9e588a23da264871c58f955147ca8925b"
+    },
+    {
+      "bytes": 41876,
+      "path": "trajectory2gym/training/global_sft_selection.py",
+      "sha256": "5f70fdc4c6eed81bde0b171db6c530eceb2e4e70c7dc8411125f748a878c20e0"
+    },
+    {
+      "bytes": 8721,
+      "path": "trajectory2gym/training/learning_value.py",
+      "sha256": "f7fb08476a3a07c98c9b0e862fb269a969bf74cde016571c2facca92d158eddd"
+    },
+    {
+      "bytes": 5194,
+      "path": "trajectory2gym/training/policy_view.py",
+      "sha256": "19d916f335326a37eb8012aa17080da22cbec928aff09b41810fdcbeeba42020"
+    },
+    {
+      "bytes": 1093,
+      "path": "trajectory2gym/training/probe_contract.py",
+      "sha256": "42771a3351a44e70c6100c20236cc1e91a919a7b111f4ff756d69e149588370a"
+    },
+    {
+      "bytes": 52619,
+      "path": "trajectory2gym/training/real_trajectory_sidecar.py",
+      "sha256": "1d1dcaa1ba333bdfba177348883e6fa575a16537778528d2d3b81ae42e9d26e1"
+    },
+    {
+      "bytes": 117269,
+      "path": "trajectory2gym/training/sft.py",
+      "sha256": "e0c458c0702f0e3997b3c8ca3d5aa76dfb0f59d51c6835b72801694e5ba06fce"
+    },
+    {
+      "bytes": 13841,
+      "path": "trajectory2gym/training/verified_prefix.py",
+      "sha256": "96f72d1b04eb4bd2cf5a90fdcb761099777f2a7f67abf8ff244fff9ff1f0d0ea"
+    },
+    {
+      "bytes": 5140,
+      "path": "trajectory2gym/trajectory/__init__.py",
+      "sha256": "92004edc3481468576f7dc6e0aa441c8ff426c87d78c08ccd0d9d1e44033af91"
+    },
+    {
+      "bytes": 29641,
+      "path": "trajectory2gym/trajectory/adapter.py",
+      "sha256": "6be91d553a16f504a4d91306034b9250f2f99ede9eac15172a7129721ad74de2"
+    },
+    {
+      "bytes": 3074,
+      "path": "trajectory2gym/trajectory/atomic.py",
+      "sha256": "ce662b3a06b167bf83700818fda7be218f42d4078c33f4172c8f6995fe4d674b"
+    },
+    {
+      "bytes": 256,
+      "path": "trajectory2gym/trajectory/benchmarks/__init__.py",
+      "sha256": "ef5b69d55012784e2d239d12d23833a2ba8b0ae493d15578fcc5e4f9b4804cde"
+    },
+    {
+      "bytes": 3303,
+      "path": "trajectory2gym/trajectory/benchmarks/registry.py",
+      "sha256": "91a1a6313902eabe4b7b135ba4471b8283de5612e2173a620db42e7c9fb07930"
+    },
+    {
+      "bytes": 6806,
+      "path": "trajectory2gym/trajectory/boundary.py",
+      "sha256": "d2b6d6052181afd02fa18bab5a3f54d5d080bff44c065ff035b3ff56b902ccd3"
+    },
+    {
+      "bytes": 16810,
+      "path": "trajectory2gym/trajectory/case_study.py",
+      "sha256": "8dd820090898cdd0aa0e545aeb21c4a7d9c91e71b7cd634ff6d96b15c3865f11"
+    },
+    {
+      "bytes": 3622,
+      "path": "trajectory2gym/trajectory/compiler.py",
+      "sha256": "3d08a25b8822ed586a5f4703a7665c027375c0de9e1f04c84c8e60dc205fd041"
+    },
+    {
+      "bytes": 5159,
+      "path": "trajectory2gym/trajectory/coverage_audit.py",
+      "sha256": "c92acac4cada071334227db01404c305444e9f9b7b73099e2166af9a41b23202"
+    },
+    {
+      "bytes": 5372,
+      "path": "trajectory2gym/trajectory/decision.py",
+      "sha256": "34e8b85a998e7990c73fd62412649b44935a6f159148926d2f2098dfb6209561"
+    },
+    {
+      "bytes": 13897,
+      "path": "trajectory2gym/trajectory/evidence_dag.py",
+      "sha256": "8dc518d0799d416dcce18b5b06ca11b688351918df65524d8c69ba0a2a0108e5"
+    },
+    {
+      "bytes": 5360,
+      "path": "trajectory2gym/trajectory/execution_graph.py",
+      "sha256": "d7a44dc8458562ae3980013d4a08bff198fcce6baae1cde9f45bf91260bffbdf"
+    },
+    {
+      "bytes": 8209,
+      "path": "trajectory2gym/trajectory/external_request.py",
+      "sha256": "9ee7426120c14287d57dd2f25e59e68eb4b7f069757936f6ef3b1e11f729e23e"
+    },
+    {
+      "bytes": 4765,
+      "path": "trajectory2gym/trajectory/ir.py",
+      "sha256": "d9eea60791e4b6e1249cbf51f31502614c874be6139fd045111b92c0f72b092d"
+    },
+    {
+      "bytes": 13143,
+      "path": "trajectory2gym/trajectory/loader.py",
+      "sha256": "589b23d41d512f3d691bc2a1c542c11a586446753df6553abf8fe275abf745b7"
+    },
+    {
+      "bytes": 20617,
+      "path": "trajectory2gym/trajectory/matcher.py",
+      "sha256": "d74a34ea494578f3c46e06024ceeebe2a3083ef9cad67e38058fac93e033d18e"
+    },
+    {
+      "bytes": 24488,
+      "path": "trajectory2gym/trajectory/observation_db.py",
+      "sha256": "8e8e51e23f01cde438796b5051533803b5da28d5c321b5f58a129dcdb8f88724"
+    },
+    {
+      "bytes": 22546,
+      "path": "trajectory2gym/trajectory/oracle_verification.py",
+      "sha256": "c9558d8731810fb040419b10d2c8dd88ae3f9fa064018c161001f2cdcc92a65e"
+    },
+    {
+      "bytes": 18108,
+      "path": "trajectory2gym/trajectory/parser.py",
+      "sha256": "8234039848df1800c35368ccedb9ac1e6362e103f08501623ca2f609642dd986"
+    },
+    {
+      "bytes": 25915,
+      "path": "trajectory2gym/trajectory/recorded_state_graph.py",
+      "sha256": "2b09e45a6bc2833309be991b5692b8bd44e096a74966e1d5fd0033b2133ae18b"
+    },
+    {
+      "bytes": 2281,
+      "path": "trajectory2gym/trajectory/recovery.py",
+      "sha256": "f7e65cd5cb285e3b389807d1cd3b89f463e8185dcc1967d45a35468481844330"
+    },
+    {
+      "bytes": 2130,
+      "path": "trajectory2gym/trajectory/replay.py",
+      "sha256": "c88a2d0fd7f8c189138883d52566fd3524f8e7db915ca431ecc1d6ef257e79cb"
+    },
+    {
+      "bytes": 2394,
+      "path": "trajectory2gym/trajectory/schema.py",
+      "sha256": "83bd3288297cb8b1c4c904206e9dd90d4585dafec9cd24d6f8e7f74d4b009fb2"
+    },
+    {
+      "bytes": 20664,
+      "path": "trajectory2gym/trajectory/service_env.py",
+      "sha256": "679d4b5a6e5c5be9f21b844af18e5fe98c9cc2b04f8af00e2a3cbeea8adc09de"
+    },
+    {
+      "bytes": 51088,
+      "path": "trajectory2gym/trajectory/session.py",
+      "sha256": "60d9f7dfd960198b8bbf820ffab5d8716b682de6ce2b06d07e76642f6d3ccfb1"
+    },
+    {
+      "bytes": 2547,
+      "path": "trajectory2gym/trajectory/target_consistency.py",
+      "sha256": "a39e25163c54019c026601c342b621419e06e2645c8d53df30af0115470d9acc"
+    },
+    {
+      "bytes": 4936,
+      "path": "trajectory2gym/trajectory/tool_semantics.py",
+      "sha256": "c60d15dc30ece11f955a89be3ab07ff64776f3c3e9aeedb111dc2931ac025049"
+    },
+    {
+      "bytes": 10248,
+      "path": "trajectory2gym/trajectory/tool_taxonomy.py",
+      "sha256": "c39c47a1cea6560ff0cb7429d926f7ad2dc5f346bea14ac9f0311ef7a19e8871"
+    },
+    {
+      "bytes": 6923,
+      "path": "trajectory2gym/trajectory/unsafe_ablation.py",
+      "sha256": "7ccdc6f2be6db52e1313f66a78490522609d881a5bd0d8743f9c1da3f480cd53"
+    },
+    {
+      "bytes": 12793,
+      "path": "trajectory2gym/trajectory/verifiability.py",
+      "sha256": "f54a9b48107dc14811c4872b8117d5b9101475e079ee324aaaddbe0ce7a6d661"
+    },
+    {
+      "bytes": 132,
+      "path": "trajectory2gym/trajectory/verifiers/__init__.py",
+      "sha256": "f112ba1891ed41bc1372d93836a234ec94c81aea197056216cc01f8bb443cc66"
+    },
+    {
+      "bytes": 511,
+      "path": "trajectory2gym/trajectory/verifiers/base.py",
+      "sha256": "02a133d35c1e6953de17db1a3df8d85c60c96da3fecfbcb1bdd7f2f0260bfd47"
+    },
+    {
+      "bytes": 1015,
+      "path": "trajectory2gym/trajectory/verifiers/plugins.py",
+      "sha256": "896a71e12618bc7c5c646bf1d0778ea0ec7576b0c8a06ac02e3360d4950d561d"
+    }
+  ],
+  "format": "trajectory2gym_release_v1",
+  "kind": "code",
+  "public_data_review_required": false
+}

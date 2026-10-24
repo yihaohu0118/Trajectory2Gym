@@ -1,0 +1,7 @@
+{
+  "support_depths": {"1.7b": 1, "4b": 2, "8b": 3, "14b": 4, "30b-a3b": 8},
+  "learning_rates": {"1.7b": 0.000011, "4b": 0.000007, "8b": 0.000007, "14b": 0.0000037, "30b-a3b": 0.0000037},
+  "global_batch_size": 8,
+  "epochs": 1,
+  "note": "30b-a3b uses an expanded corpus. This reference schedule is not a complete runtime or data manifest. Pass scale-depth values explicitly."
+}
